@@ -1,0 +1,154 @@
+*{
+   font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background:whitesmoke;
+}
+
+
+
+
+.main_box{
+    height: 95vh;
+    width: 130vh;
+    background:#fff;
+    display: flex;
+}
+
+#first_sec{
+    height: 92%;
+    width: 45%;
+    margin-left: 30px;
+    margin-top:2rem;
+    position: relative;
+    display: inline-block;
+     font-size: 14px; 
+     /* border: 1px solid blue; */
+}
+#login_form{
+    border: 1.9px solid rgb(182, 180, 180);
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    width: 90%;
+    margin-top: 20px;
+}
+input{
+    outline:none;
+    border: 0;
+ }
+ select{
+    border: none;
+    margin-left: 50%;
+    outline: none;
+ }
+ #label_form{
+    border: 1.9px solid rgb(182, 180, 180);
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    width: 40%;
+    height: 1.5rem;
+    margin-top: 20px;
+    display: inline-block;
+    margin: 10px 10px 5px ;
+    position: relative;
+ }
+ .down{
+    position: absolute;
+    right: 1.5rem;
+    bottom: 0;
+    
+    
+ }
+ #submit{
+    width: 80%;
+    height: 3.5rem;
+    background-color: #fff;
+    border: 2px solid #FFC700;
+    text-align: center;
+    margin-left: 8%;
+    margin-top: 5px;
+    border-radius: 2rem;
+    bottom: 6rem;
+    color:#FFC700;
+    font-size: larger;
+    font-weight: 600;
+    transition: 0.3s;
+ }
+ #submit:hover{
+     background-color: #FFC700;
+     color: #fff;
+     font-size: x-large;
+ }
+ #account{
+    text-align: center;
+    margin-top: 7px;
+ }
+ a, span{
+    color:#FFC700;
+    text-decoration: none;
+ }
+
+
+ .sec_sec{
+    height: 95%;
+    width: 45%;   
+    display: inline-block;
+    background: url(./images/Rectangle\ 7.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    margin-left: 20px; 
+    margin-top: 2%;
+    
+}
+#logo{
+   height: 5rem;
+   width: 10rem;
+   background-size: cover;
+   /* border: 2px solid #FFC700; */
+    position: absolute; 
+   top: 2rem;
+   left: 35%;
+
+
+}
+
+@media (max-width:820px) {
+   .down{
+      right: 1rem;
+      bottom: 1rem; 
+   }
+   #label_form{
+      
+   }
+   select{
+      border: none;
+      margin-left: 50%;
+      outline: none;
+   
+   }
+
+}
+
+@media (max-width:420px) {
+      
+}  
+
+
+
+
+
+
+
+
+
+
+
+

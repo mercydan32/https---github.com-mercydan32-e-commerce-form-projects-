@@ -1,0 +1,201 @@
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background:whitesmoke;
+}
+          /* form_section */
+
+#mainbox{
+    height: 80vh;
+    width: 130vh;
+    background:#fff;
+    display: flex; 
+    
+}
+#first_sec{
+    height: 80%;
+    width: 45%;
+    margin-left: 20px;
+     margin-top:4rem; 
+    position: relative;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+     font-size: 14px; 
+}
+
+#login_form{
+    border: 1.9px solid rgb(182, 180, 180);
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    width: 90%;
+    margin-top: 40px;
+}
+input{
+   outline: none;
+   border: 0;
+}
+#submit{
+    width: 80%;
+    height: 3.5rem;
+    background-color:#FFC700;
+    border: none;
+    text-align: center;
+    margin-left: 8%;
+    border-radius: 2rem;
+    bottom: 6rem;
+    color: #fff;
+    font-size: larger;
+    font-weight: 600;
+}
+hr{
+   width: 8rem;
+   display: inline-block;
+}
+#forgot{
+    display: inline-block;
+     margin-left: 5rem;
+}
+.word{
+    display: inline-block;
+}
+.icons .round i{
+    position: absolute;
+    top: 50%;
+    right:19%;
+}
+.icons .round{
+     display: inline-block; 
+    border: 3px solid rgb(213, 207, 207);
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    border-radius: 1.7rem;
+    margin-right: 1rem;
+    position: relative;
+    bottom: 18px;
+    left: 25%;
+}
+
+        /* image_section */
+
+
+
+.sec_sec{
+    height: 90%;
+    width: 45%;   
+    display: inline-block;
+    background:url(images/Rectangle\ 4.png) ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    margin-left: 20px; 
+    margin-top: 1rem;
+    
+}
+
+ #image{
+    height: 5rem;
+    width: 10rem;
+    background-size: cover;
+    /* border: 2px solid #FFC700; */
+    position: absolute;
+   top: 5rem;
+    left: 37%; 
+
+
+} 
+
+
+  @media (max-width: 1024px) {
+    .word{
+        color: #FFC700;
+    }
+     #mainbox{
+        height: 90vh;
+    } 
+    hr{
+        width: 6rem; 
+    }
+    #first_sec{
+        width: 47%;  
+    }
+    .sec_sec{
+        height: 80%;
+    }
+    .icons .round{
+        left: 17%; 
+    }
+
+    #image{
+        top: 5rem;
+        left: 31%;
+    }
+}  
+
+
+
+
+@media (max-width:688px) {
+    #first_sec{
+         width: 90%;
+    }
+    hr{
+        width: 12rem;
+     }
+
+     .sec_sec{
+        display: block;
+        width: 100%;
+       position: relative;
+       bottom: -4rem;
+       border-radius: 0%;
+       margin-left: 0px;
+       /* background-size: contain; */
+       background-repeat: no-repeat;
+     }  
+
+     #first_sec{
+        margin-left: 20px;
+    }
+    #mainbox{
+     display: block;
+    }
+
+
+}
+
+@media (max-width:546px) {
+    hr{
+        width: 7rem;
+    }
+    #image{
+        top: 3rem;
+        left: 35%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
